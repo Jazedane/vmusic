@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="/dist/css/bootstrap.min.css"/>
+<script src="/dist/js/bootstrap.min.js"></script>
 <style>
 .topnav {
     background-color: black;
@@ -139,6 +141,10 @@
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
 }
+
+.nav-logo {
+  color: yellow;
+}
 </style>
 </head>
 <body>
@@ -151,10 +157,10 @@
   <?php include './search.php' ?>
 </div>
 <div class="topnav">
-    <h5>
-    <a class="logo"><i class="fa fa-fw fa-music"></i> V-Music</a>
-    <button class="openbtn" onclick="openNav()"><i class="fa fa-fw fa-bars"></i></button>
-    </h5>
+    <div class="nav-logo">
+      <a class="logo"><i class="fa fa-fw fa-music"></i> V-Music</a>
+      <button class="openbtn" onclick="openNav()"><i class="fa fa-fw fa-bars"></i></button>
+    </div>
 </div>
 <script>
 function openNav() {

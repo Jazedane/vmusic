@@ -107,9 +107,9 @@ label {
 <body>
 <div class="container">
   <form action="/submit-song.php" method="POST">
-    <div class="form-container">
+    <div class="form-group">
        <label for="title">Title</label>
-       <input type="text" name="title" id="title" placeholder="Song Title" required />
+       <input type="text" class="form-control" name="title" id="title" placeholder="Song Title" required />
     </div>
     <div class="form-container">
        <label for="artist">Artist</label>
@@ -118,10 +118,10 @@ label {
     <div class="form-container">
        <label for="lyrics">Lyrics</label>
        <br />
-       <textarea name="lyrics" id="lyrics" placeholder="Song lyrics" required rows="25" cols="50"></textarea>
+       <textarea name="lyrics" id="lyrics" placeholder="Song lyrics" required rows="10" cols="50"></textarea>
     </div>
 
-    <button type="submit">Add Song</button>
+    <button type="submit" class="btn btn-primary">Add Song</button>
   </form>
 </div>
 </body>
