@@ -3,5 +3,7 @@ git add .
 git commit -m "initial commit"
 git push origin master
 
+akon ni sa ya
+
 // syncing to repository
 git pull origin master
