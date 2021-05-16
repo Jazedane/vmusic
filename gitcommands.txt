@@ -4,6 +4,7 @@ git commit -m "initial commit"
 git push origin master
 
 akon ni sa ya
+sample sample
 
 // syncing to repository
 git pull origin master
