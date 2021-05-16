@@ -115,8 +115,6 @@ label {
        <label for="artist">Artist</label>
        <input type="text" name="artist" id="artist" placeholder="Song artist" required />
     </div>
-    
-    
     <div class="form-container">
        <label for="lyrics">Lyrics</label>
        <br />
