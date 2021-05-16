@@ -1,0 +1,7 @@
+// push to repository
+git add .
+git commit -m "initial commit"
+git push origin master
+
+// syncing to repository
+git pull origin master
