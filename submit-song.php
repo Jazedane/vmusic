@@ -3,9 +3,10 @@
 
     $title = $_POST['title'];
     $lyrics = $_POST['lyrics'];
+    $artist = $_POST['artist'];
 
     $query    = "INSERT into `songs` (author, title, artist, genre, lyrics, youtube)
-                     VALUES ('Juzztine', '$title', 'Rave', 'Pop', '$lyrics', 'youtube.com/ajdioj2903j0d93qj')";
+                     VALUES ('Juzztine', '$title', '$artist', 'Pop', '$lyrics', 'youtube.com/ajdioj2903j0d93qj')";
     $result = mysqli_query($con, $query);
 ?>
 

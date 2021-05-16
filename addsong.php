@@ -112,10 +112,17 @@ label {
        <input type="text" name="title" id="title" placeholder="Song Title" required />
     </div>
     <div class="form-container">
+       <label for="artist">Artist</label>
+       <input type="text" name="artist" id="artist" placeholder="Song artist" required />
+    </div>
+    
+    
+    <div class="form-container">
        <label for="lyrics">Lyrics</label>
        <br />
        <textarea name="lyrics" id="lyrics" placeholder="Song lyrics" required rows="25" cols="50"></textarea>
     </div>
+
     <button type="submit">Add Song</button>
   </form>
 </div>
